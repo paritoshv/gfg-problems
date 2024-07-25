@@ -110,7 +110,6 @@ class Solution {
         
     }
     vector<int> merge(Node *root1, Node *root2) {
-        // codeGenius
         inorder(root1,0);
         inorder(root2,1);
         vector<int> ans;
